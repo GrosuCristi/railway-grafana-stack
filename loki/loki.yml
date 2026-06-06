@@ -4,6 +4,9 @@ server:
   http_listen_port: 3100
   log_level: info
 
+limits_config:
+  creation_grace_period: 12h
+
 common:
   ring:
     instance_addr: 127.0.0.1
